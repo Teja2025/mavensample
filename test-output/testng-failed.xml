@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="edgetest(failed)">
-    <parameter name="browser" value="edge"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="website.Crossbrowsertest">
+      <class name="website.Enquiry">
         <methods>
-          <include name="Method"/>
-          <include name="initializedriver"/>
+          <include name="enquiryMethod"/>
         </methods>
-      </class> <!-- website.Crossbrowsertest -->
+      </class> <!-- website.Enquiry -->
     </classes>
-  </test> <!-- edgetest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
