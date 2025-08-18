@@ -50,6 +50,8 @@ public class about extends Baseclass {
             js.executeScript("window.scrollTo(1000,0)");
             Thread.sleep(1000);
             System.out.println("hiii");
+            System.out.println("bye");
+            System.out.println("hibye");
             
         }
     }
